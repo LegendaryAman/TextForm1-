@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/my-app/TextForm1-/static/css/main.f855e6bc.css",
+    "main.js": "/my-app/TextForm1-/static/js/main.0f0679f2.js",
+    "static/js/453.ed3810f9.chunk.js": "/my-app/TextForm1-/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/my-app/TextForm1-/index.html",
+    "main.f855e6bc.css.map": "/my-app/TextForm1-/static/css/main.f855e6bc.css.map",
+    "main.0f0679f2.js.map": "/my-app/TextForm1-/static/js/main.0f0679f2.js.map",
+    "453.ed3810f9.chunk.js.map": "/my-app/TextForm1-/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.0f0679f2.js"
+  ]
+}
