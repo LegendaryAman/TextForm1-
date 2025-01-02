@@ -1,34 +1,26 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+
+//import { Outlet,Link } from 'react-router-dom'
 
 
-export default function Navbar(props) {
+export default function Navbar() {
   return (
     <div className="card text-center">
     <div className="card-header">
-      <ul className="nav nav-tabs card-header-tabs">
-        <li className="nav-item">
-    <a className="nav-link active" aria-current="true" href="/">{props.Title}</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="/">Link</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link disabled" aria-disabled="true">{props.About}</a>
-        </li>
-      </ul>
+      <nav>
+        <ul className="nav nav-tabs card-header-tabs">
+          <li className="nav-item">
+            {/* <Link className="nav-link" to="/">TextForm</Link> */}
+            <a className="nav-link" href="/">TextForm</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/AboutUs">About Us</a>
+          </li>
+        </ul>
+      </nav>
     </div>
-   
+   {/* <Outlet/> */}
   </div>
   )
 }
 /* PropTypes show the type of prop means it is string,objectr or Number */
-Navbar.propTypes = {
-    Title : PropTypes.string,
-    About : PropTypes.string
-}
-// default props 
-Navbar.defaultProps = {
-    Title : 'Set title here',
-    About : 'About text here'
-}

@@ -40,7 +40,7 @@ const TextFrom = (props) => {
     <h1>Preview</h1>
     <p>{text}</p>
     </div>
-    </>
+    </> 
   )
 }
 
